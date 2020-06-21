@@ -8,9 +8,9 @@ Para fazer os DTOs foi utilizado *ModelMapper*, o que facilita muito na criaçã
 
 ### Spring Data JPA
 
-O *Spring Data JPA* facilita a implementação fácil de repositórios baseados em *JPA*. Este módulo lida com suporte aprimorado para camadas de acesso a dados baseadas em *JPA*. Isso facilita a criação de aplicativos com tecnologia *Spring* que usam tecnologias de acesso a dados.
+O *Spring Data JPA* facilita a implementação fácil de repositórios baseados em *JPA*. Este módulo lida com suporte aprimorado para camadas de acesso a dados baseadas em *JPA*. Isso facilita a criação de aplicativos com tecnologia *Spring* que usam tecnologias de acesso a dados. 
 
-A implementação de uma camada de acesso a dados de um aplicativo é complicada há bastante tempo. Muito código clichê precisa ser gravado para executar consultas simples, além de realizar paginação e auditoria. O *Spring Data JPA* visa melhorar significativamente a implementação das camadas de acesso a dados, reduzindo o esforço na quantidade realmente necessária. Como desenvolvedor, você escreve suas interfaces de repositório, incluindo métodos de localização personalizada, e o *Spring* fornecerá a implementação automaticamente.
+A implementação de uma camada de acesso a dados de um aplicativo é complicada há bastante tempo. Muito código clichê precisa ser gravado para executar consultas simples, além de realizar paginação e auditoria. O *Spring Data JPA* visa melhorar significativamente a implementação das camadas de acesso a dados, reduzindo o esforço na quantidade realmente necessária. Como desenvolvedor, você escreve suas interfaces de repositório, incluindo métodos de localização personalizada, e o *Spring* fornecerá a implementação automaticamente. Disponível em https://spring.io/projects/spring-data-jpa.
 
 ### Flyway
 
@@ -18,4 +18,4 @@ A implementação de uma camada de acesso a dados de um aplicativo é complicada
 
 Ele é baseado em apenas 7 comandos básicos:  *Migrate*, *Clean*, *Info*, *Validate*, *Undo*, *Baseline* e *Repair*.
 
-As migrações podem ser gravadas em SQL (sintaxe específica do banco de dados (como PL / SQL, T-SQL, ...) é suportada) ou Java (para transformações avançadas de dados ou para lidar com LOBs).
+As migrações podem ser gravadas em SQL (sintaxe específica do banco de dados (como PL / SQL, T-SQL, ...) é suportada) ou Java (para transformações avançadas de dados ou para lidar com LOBs). Disponível em https://flywaydb.org/documentation/.
